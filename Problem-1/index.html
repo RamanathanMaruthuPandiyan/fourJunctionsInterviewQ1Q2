@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Tank Problem - SVG Table</title>
+  <style>
+    svg { border: 1px solid black; margin-top: 10px; }
+    rect.block { fill: grey; }
+    rect.water { fill: lightblue; }
+  </style>
+</head>
+<body>
+  <h1>Water Tank Problem - SVG Table</h1>
+  <form id="block-form">
+    <label for="heights">Enter block heights (comma-separated):</label>
+    <input type="text" id="heights" placeholder="e.g., 5,2,3,4">
+    <button type="submit">Generate Table</button>
+  </form>
+  <div id="svg-container"></div>
+  <p id="total-water"></p>
+  <script src="script.js"></script>
+</body>
+</html>
